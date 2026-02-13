@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Gift For you</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <!-- Scene 1: Envelope -->
+     <h2 id="topText">Happy Valentine's Day!</h2>
+        <div class="scene">
+            <div id="wrapper" class="wrapper" onclick="this.classList.toggle('active')">
+                <div class="pap one"></div>
+                <div class="pap two"></div>
+                <div class="envelope"></div>
+                <div class="letter">
+                    <pre>Dear My Love,
+
+    This is our first Valentine's Day
+    together. I may not be with you 
+    today, but I want to let you know 
+    that you are special. You make me 
+    happy when I'm sad, thank you. 
+    I love you so much. 
+
+    Yours forever,
+    Frame
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <h2 id="text">Try clicking on the mail</h2>
+        <button id="continue" onclick="document.querySelector('.scene').classList.add('slideOut')">Continue</button>
+    
+        <!-- Scene 2: bouguet -->
+        <div class="scene2">
+            <div class="roses">
+                <img id="rose" src="rose.png" alt="Rose Bouguet">  
+            </div>
+            <div class="memories">
+                <img id="img1" src="2.png" alt="memories">
+                <img id="img2" src="3.png" alt="memories">
+                <img id="img3" src="4.png" alt="memories">
+                <img id="img4" src="5.png" alt="memories">
+            </div>
+        </div>
+        <h2 id="text2">Flowers for you!!</h2>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
